@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    text-align: center;
+    text-shadow: #444 2px 2px 2px;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    margin-top: 21px;
+    padding: 40px;
+}
+
+.drum-kit {
+    background-image: url(img/drum.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+.key {
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: all ease-in-out .042s;
+	position: absolute;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+}
+
+#key-a {
+    padding: 48px;
+    height: 32px;
+    width: 32px;
+    right: 545px;
+    top: 50px;
+}
+
+#key-s {
+    padding: 48px;
+    height: 32px;
+    width: 32px;
+    top: 155px;
+    right: 497px;
+}
+
+#key-f {
+    padding: 64px;
+    height: 32px;
+    width: 32px;
+    top: 263px;
+    right: 425px;
+}
+
+#key-j {
+    padding: 64px;
+    height: 32px;
+    width: 32px;
+    top: 99px;
+    right: 351px;
+}
+
+#key-k {
+    padding: 64px;
+    height: 32px;
+    width: 32px;
+    top: 98px;
+    right: 200px;
+}
+
+#spacebar {
+    padding: 64px;
+    height: 32px;
+    width: 32px;
+    top: 258px;
+    right: 122px;
+}
+
+#key-l {
+    padding: 48px;
+    height: 32px;
+    width: 32px;
+    top: 150px;
+    right: 85px;
+}
+
+#key-ride {
+    padding: 48px;
+    height: 32px;
+    width: 32px;
+    top: 300px;
+    right: 85px;
+}
+
+#key-ç {
+    padding: 48px;
+    height: 32px;
+    width: 32px;
+    right: 42px;
+    top: 44px;
+}
+
+#key-hihat-close {
+	right: 60px;
+    top: 150px;
+}
+
+.playing {
+	transform: scale(1.12);
+    border: rgb(255, 111, 0) 2px solid;
+    box-shadow: 0 0 10px rgb(255, 111, 0);
+    color: rgb(255, 255, 255);
+}
